@@ -65,4 +65,5 @@ if __name__ == "__main__":
                     writer.writerow([href])
 
         print(f"{len(unique_new_hrefs)} new unique href(s) added to {csv_file}")
+        logger.info(unique_new_hrefs)
 
